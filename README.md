@@ -1,4 +1,4 @@
-# Starter redux assessment: Doggiegram
+# Starter redux assessment: Doggiegram and stuff. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
