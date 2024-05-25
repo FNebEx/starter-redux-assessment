@@ -1,0 +1,1 @@
+GET http://localhost:3004/api/suggestion HTTP/1.1
