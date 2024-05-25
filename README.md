@@ -1,25 +1,13 @@
-# Starter redux assessment: Doggiegram and stuff. 
+# Starter redux assessment: Doggiegram 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available scripts
+Assessment for the Redux module for Chegg Skills. 
 
-In the project directory, you can run the following commands:
+There is a file that was added to project, `test.http`. It only exists to make sure that the server is actually returning data. 
 
-### `npm install`
+Here are some of the things that I learned from this module:
+1. Slices are really just part of the state. This entire project could've had a state variable with `photos`, `suggestions`, and `search` properties. 
+2. It's important what the reducer key in `store.js` is called. If the reducer's key is "something", and an object called "notes", in the slice file, you'd export `state.something.object` where the object is whatever is in the initial state. 
 
-Installs the project dependencies, including Redux packages such as @reduxjs/toolkit and react-redux.
-
-### `npm run dev`
-
-Runs the React app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-Runs an Express API at `http://localhost:3004` that exposes a single endpoint, `GET /api/suggestion`, which returns a dog suggestion at random.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Runs the test suites.
+This was a good project. The only downside is that I believe that Redux has a new way doing things. It's somehting that I'll have to look into more. 
